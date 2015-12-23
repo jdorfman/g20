@@ -1,0 +1,36 @@
+{
+  "name": "g20",
+  "version": "1.0.0",
+  "description": "Fast and Easy 20 Character CLI Password Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdorfman/g20.git"
+  },
+  "devDependencies": {
+   "chalk": "*",
+   "password-generator": "*",
+   "copy-paste": "*"
+ },
+  "keywords": [
+    "password",
+    "generator",
+    "clipboard",
+    "chalk",
+    "password-generator",
+    "security",
+    "crypto",
+    "random",
+    "cli",
+    "passwd"
+  ],
+  "author": "Justin Dorfman <justindorfman@gmail.com> (http://www.justindorfman.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdorfman/g20/issues"
+  },
+  "homepage": "https://github.com/jdorfman/g20#readme"
+}
