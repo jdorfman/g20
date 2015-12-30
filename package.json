@@ -1,19 +1,20 @@
 {
   "name": "g20",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Fast and Easy 20 Character CLI Password Generator",
   "bin": {
-    "g20": "./index.js"
+    "g20": "node index.js"
   },
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
   },
+  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jdorfman/g20.git"
   },
-  "devDependencies": {
+  "dependencies": {
     "chalk": "*",
     "password-generator": "*",
     "copy-paste": "*"
