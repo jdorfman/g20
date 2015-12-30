@@ -1,11 +1,24 @@
-g20 v.1.0.0
+g20 v.1.0.0 beta
 ====
 
-[![Build Status](https://travis-ci.org/MaxCDN/shml.svg)](https://travis-ci.org/MaxCDN/shml)
+g20 (Generate a 20 Character Password) is the fastest and easiest cross-platform CLI password generator on the planet.  For years I have been using [something similar to it](https://medium.com/@jdorfman/osx-password-generator-in-bash-48687892c4f3#.ex5p9qiig) but it only works on OS X.  During the beta I ask others to help test other OS platforms.
 
-g20 (Generate a 20 Character Password) is the fastest and easiest cross-platform CLI password generator on the planet.  For years I have been using [something similar to it](https://medium.com/@jdorfman/osx-password-generator-in-bash-48687892c4f3#.ex5p9qiig) but it only works on OS X.  Today that is no longer the case.  All you need to do now is run:
-
+### Installation
 `npm install -g g20`
+
+### Usage
+
+```
+$ g20
+
+WgVxD9LXdRyfv8t3D_V has been copied to your clipboard.
+
+```
+
+### Platform Support
+|OS X|Linux|Win|
+|---|---|---|
+| ✅ | ❓ | ❓|
 
 ### FAQ's
 
@@ -23,6 +36,7 @@ No.
 
 **Bottom line**: all customizations require a fork.
 
+### Screenshot
 ![Img](media/cli.png)
 
 ### Dependency Packages

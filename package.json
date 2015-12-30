@@ -1,6 +1,6 @@
 {
   "name": "g20",
-  "version": "1.0.0",
+  "version": "1.0.0 beta",
   "description": "Fast and Easy 20 Character CLI Password Generator",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,7 @@
     "security",
     "crypto",
     "random",
+    "os x",
     "cli",
     "passwd"
   ],
