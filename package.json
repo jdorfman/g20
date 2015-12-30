@@ -1,6 +1,6 @@
 {
   "name": "g20",
-  "version": "1.0.1",
+  "version": "1.0.1-beta",
   "description": "Fast and Easy 20 Character CLI Password Generator",
   "bin" : { "g20" : "./index.js" },
   "main": "index.js",
