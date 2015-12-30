@@ -1,4 +1,4 @@
-g20 v.1.0.0 beta
+g20 v1.0.1-beta
 ====
 
 g20 (Generate a 20 Character Password) is the fastest and easiest cross-platform CLI password generator on the planet.  For years I have been using [something similar to it](https://medium.com/@jdorfman/osx-password-generator-in-bash-48687892c4f3#.ex5p9qiig) but it only works on OS X.  During the beta I ask others to help test other OS platforms.
