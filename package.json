@@ -1,6 +1,6 @@
 {
   "name": "g20",
-  "version": "1.0.0 beta",
+  "version": "1.0.0",
   "description": "Fast and Easy 20 Character CLI Password Generator",
   "main": "index.js",
   "scripts": {
@@ -11,10 +11,10 @@
     "url": "git+https://github.com/jdorfman/g20.git"
   },
   "devDependencies": {
-   "chalk": "*",
-   "password-generator": "*",
-   "copy-paste": "*"
- },
+    "chalk": "*",
+    "password-generator": "*",
+    "copy-paste": "*"
+  },
   "keywords": [
     "password",
     "generator",
