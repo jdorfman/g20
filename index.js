@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 require('copy-paste').global()
 var chalk = require('chalk')
 var generatePassword = require('password-generator')
