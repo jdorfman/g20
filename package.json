@@ -1,6 +1,6 @@
 {
   "name": "g20",
-  "version": "1.0.3-beta",
+  "version": "1.0.4-beta",
   "description": "Fast and Easy 20 Character CLI Password Generator",
   "bin": {
     "g20": "index.js"
@@ -37,6 +37,5 @@
   "bugs": {
     "url": "https://github.com/jdorfman/g20/issues"
   },
-  "homepage": "https://github.com/jdorfman/g20#readme",
-  "os" : [ "!win32" ]
+  "homepage": "https://github.com/jdorfman/g20#readme"
 }
