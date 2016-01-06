@@ -37,5 +37,6 @@
   "bugs": {
     "url": "https://github.com/jdorfman/g20/issues"
   },
-  "homepage": "https://github.com/jdorfman/g20#readme"
+  "homepage": "https://github.com/jdorfman/g20#readme",
+  "os" : [ "!win32" ]
 }
