@@ -3,7 +3,7 @@
   "version": "1.0.3-beta",
   "description": "Fast and Easy 20 Character CLI Password Generator",
   "bin": {
-    "g20": "node index.js"
+    "g20": "index.js"
   },
   "main": "index.js",
   "scripts": {
@@ -15,9 +15,9 @@
     "url": "git+https://github.com/jdorfman/g20.git"
   },
   "dependencies": {
-    "chalk": "*",
-    "password-generator": "*",
-    "copy-paste": "*"
+    "chalk": "^1.1.1",
+    "copy-paste": "^1.1.4",
+    "password-generator": "^2.0.2"
   },
   "keywords": [
     "password",
@@ -37,5 +37,6 @@
   "bugs": {
     "url": "https://github.com/jdorfman/g20/issues"
   },
-  "homepage": "https://github.com/jdorfman/g20#readme"
+  "homepage": "https://github.com/jdorfman/g20#readme",
+  "os" : [ "!win32" ]
 }
