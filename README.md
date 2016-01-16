@@ -45,4 +45,4 @@ No.
 
 * [`Chalk`](https://www.npmjs.com/package/chalk) - MIT © Sindre Sorhus
 * [`password-generator`](https://www.npmjs.com/package/password-generator) - MIT © 2011-2012 Bermi Ferrer
-* [`copy-paste`](https://www.npmjs.com/package/copy-past) - MIT © Xavi Ramirez
+* [`copy-paste`](https://www.npmjs.com/package/copy-paste) - MIT © Xavi Ramirez
