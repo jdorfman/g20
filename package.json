@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node tests/hash-check.js"
   },
   "preferGlobal": true,
   "repository": {
