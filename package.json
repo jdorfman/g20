@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "node tests/hash-check.js"
+    "test": "node tests/stdout-count.js"
   },
   "preferGlobal": true,
   "repository": {
