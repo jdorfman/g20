@@ -11,12 +11,12 @@ if (process.platform === 'darwin') {
 }
 
 cp.exec(testCommand, function (err, stdout, stderr) {
-  var trimStdOut = stdout.trim()
+    var trimStdOut = stdout.trim();
     if (trimStdOut !== '5d1461cf239ddb11e34c46d0498cd8b7') {
-      console.log('Fail: The current g20 hash doesn\'t match the correct one.')
-      console.log('Debug: ' + trimStdOut)
-      process.exit(1)
+      console.log('Fail: The current g20 hash doesn\'t match the correct one.');
+      console.log('Debug: ' + trimStdOut);
+      process.exit(1);
     } else {
-      console.log('Pass')
+      console.log('Pass');
     }
 });
