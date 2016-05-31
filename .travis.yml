@@ -5,8 +5,6 @@ before_script:
   - "sudo apt-get -qq update"
   - "sudo apt-get install -y xclip"
 node_js:
-  - "4.1"
-  - "4.0"
-  - "0.12"
-  - "0.11"
-  - "0.10"
+  - "6"
+  - "4"
+  - "0"
