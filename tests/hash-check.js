@@ -2,6 +2,9 @@ var cp = require("child_process");
 
 var testCommand = "node ./index.js | wc | awk '{ print $1$2$3 }' | md5sum | awk '{print $1}'";
 
+console.log("DEBUG: platform ==>");
+console.log("==> " + process.platform);
+
 if (process.platform === 'darwin') {
     testCommand = "node ./index.js | wc | awk '{ print $1$2$3 }' | md5";
 } else if (process.platform === "win32") {
@@ -10,9 +13,16 @@ if (process.platform === 'darwin') {
     process.exit(1);
 }
 
+console.log("DEBUG: command ==>");
+console.log("==> " + testCommand);
+
 cp.exec(testCommand, function (err, stdout, stderr) {
-    var trimStdOut = stdout.trim();
-    if (trimStdOut !== '5d1461cf239ddb11e34c46d0498cd8b7') {
+    var trimStdout = stdout.trim();
+
+    console.log("DEBUG: output ==>");
+    console.log("==> " + trimStdout);
+
+    if (trimStdout !== '5d1461cf239ddb11e34c46d0498cd8b7') {
       console.log('Fail: The current g20 hash doesn\'t match the correct one.');
       console.log('Debug: ' + trimStdOut);
       process.exit(1);
