@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "node tests/hash-check.js"
+    "test": "snyk test && node tests/hash-check.js"
   },
   "preferGlobal": true,
   "repository": {
@@ -37,5 +37,8 @@
   "bugs": {
     "url": "https://github.com/jdorfman/g20/issues"
   },
-  "homepage": "https://github.com/jdorfman/g20#readme"
+  "homepage": "https://github.com/jdorfman/g20#readme",
+  "devDependencies": {
+    "snyk": "^1.28.1"
+  }
 }
