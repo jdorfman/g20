@@ -1,7 +1,12 @@
 language: node_js
+env:
+  - DEBIAN_FRONTEND=text
+before_script:
+  - "export DISPLAY=:99.0"
+  - "sh -e /etc/init.d/xvfb start"
+  - "sudo apt-get -qq update"
+  - "sudo apt-get install -y xclip"
 node_js:
-  - "4.1"
-  - "4.0"
-  - "0.12"
-  - "0.11"
-  - "0.10"
+  - "6"
+  - "4"
+  - "0"
