@@ -1,6 +1,6 @@
 {
   "name": "g20",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Fast and Easy 20 Character CLI Password Generator",
   "bin": {
     "g20": "index.js"
@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "chalk": "^1.1.1",
-    "copy-paste": "^1.1.4",
+    "clipboardy": "^1.1.4",
     "password-generator": "^2.0.2"
   },
   "keywords": [

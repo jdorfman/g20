@@ -1,4 +1,4 @@
-g20 v1.0.5
+g20 v1.0.6
 ====
 
 g20 (Generate a 20 Character Password) is the fastest and easiest cross-platform CLI password generator on the planet.  For years I have been using [something similar to it](https://medium.com/@jdorfman/osx-password-generator-in-bash-48687892c4f3#.ex5p9qiig) but it only works on OS X.  Feel free to [submit an issue](https://github.com/jdorfman/g20/issues) if you're stuck.
@@ -16,13 +16,11 @@ WgVxD9LXdRyfv8t3D_V has been copied to your clipboard.
 ```
 
 ### Platform Support
-|OS X|Linux¹|Win²|
-|---|---|---|
-| ✅ | ✅ | ✅|
+|macOS|Linux|Win¹|OpenBSD|FreeBSD|Android/Termux|
+|---|---|---|---|---|---|
+| ✅ | ✅ | ✅| ✅ | ✅ | ✅|
 
-¹ For Linux make sure `xclip` is installed e.g. `sudo apt-get install xclip`
-
-² Tested on Windows 10
+¹ Tested on Windows 10
 
 ### FAQ's
 
@@ -48,4 +46,4 @@ No.
 
 * [`Chalk`](https://www.npmjs.com/package/chalk) - MIT © Sindre Sorhus
 * [`password-generator`](https://www.npmjs.com/package/password-generator) - MIT © 2011-2012 Bermi Ferrer
-* [`copy-paste`](https://www.npmjs.com/package/copy-paste) - MIT © Xavi Ramirez
+* [`clipboardy`](https://github.com/sindresorhus/clipboardy) - MIT © Sindre Sorhus
