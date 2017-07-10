@@ -18,7 +18,7 @@ WgVxD9LXdRyfv8t3D_V has been copied to your clipboard.
 ### Platform Support
 |macOS|Linux|Win¹|OpenBSD|FreeBSD|Android/Termux|
 |---|---|---|---|---|---|
-| ✅ | ✅ | ✅| ✅ | ✅ | ✅|
+| ✅ | ✅ | ✅| ✅ | ✅ | 🚫|
 
 ¹ Tested on Windows 10
 
