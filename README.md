@@ -39,7 +39,7 @@ No.
 **Bottom line**: all customizations require a fork.  And if you want, I will link to your fork in this `README.md`
 
 ### Screenshots
-![Unix Like](media/cli-g20.png)
+![macOS](media/macOS-v106.png)
 ![Windows](media/windows-g20.png)
 
 ### Dependency Packages
