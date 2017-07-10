@@ -16,11 +16,11 @@ WgVxD9LXdRyfv8t3D_V has been copied to your clipboard.
 ```
 
 ### Platform Support
-|macOS|Linux|Win¹|OpenBSD|FreeBSD|Android/Termux|
+|macOS|Linux|Win¹|Bash on Win|OpenBSD|FreeBSD|Android/Termux|
 |---|---|---|---|---|---|
-| ✅ | ✅ | ✅| ✅ | ✅ | 🚫|
+| ✅ | ✅ | ✅ |🚫 |❓ |❓ |🚫 |
 
-¹ Tested on Windows 10
+¹ Tested on Windows 10 cmd.exe
 
 ### FAQ's
 
@@ -40,7 +40,8 @@ No.
 
 ### Screenshots
 ![macOS](media/macOS-v106.png)
-![Windows](media/windows-g20.png)
+
+![Windows](media/windows-cmd-106.png)
 
 ### Dependency Packages
 
