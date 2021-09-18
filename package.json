@@ -15,7 +15,7 @@
     "url": "git+https://github.com/jdorfman/g20.git"
   },
   "dependencies": {
-    "chalk": "^1.1.1",
+    "chalk": "^2.0.0",
     "clipboardy": "^1.1.4",
     "password-generator": "^2.0.2"
   },
