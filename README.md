@@ -48,3 +48,4 @@ No.
 * [`Chalk`](https://www.npmjs.com/package/chalk) - MIT © Sindre Sorhus
 * [`password-generator`](https://www.npmjs.com/package/password-generator) - MIT © 2011-2012 Bermi Ferrer
 * [`clipboardy`](https://github.com/sindresorhus/clipboardy) - MIT © Sindre Sorhus
+
