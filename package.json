@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "chalk": "^1.1.1",
-    "clipboardy": "^1.1.4",
+    "clipboardy": "^2.0.0",
     "password-generator": "^2.0.2"
   },
   "keywords": [
